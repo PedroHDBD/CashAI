@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+nav {   
+    text-align: center;
+    margin: 0;
+    height: 7svw;
+    width: 100svw;
+    background-color: rgb(19, 19, 19);
+}
+
+nav h3 {
+    position: relative;
+    left: 5.8svw;
+    display: inline-block;
+    margin: 0;
+    padding: 1svw;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 4svw;
+    color: rgb(242, 255, 67);
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    left: 34.2svw;
+    width: 3.5svw;
+    padding: 0 1.2svw;
+    vertical-align: middle;
+}
+
+.voltar {
+    position: absolute;
+    left: 4svw;
+    top: -0.3svw
+}
+
+#Github {
+    filter: invert(100%);
+}
+
+table {
+    width: 100svw;
+    border-collapse: separate;
+    border-spacing: 2svw;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+table::-webkit-scrollbar{
+    display: none;
+}
+
+table td {
+    background-color: rgb(197, 197, 197);
+    width: 33%;
+    border-radius: 1svw;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+table td::-webkit-scrollbar{
+    display: none;
+}
+
+.content {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.content button {
+    font-family: "Inter", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+#new {
+    transform: translateX(-7svw);
+    font-size: 1.8svw;
+    margin: 0;
+    width: 4svw;
+    height: 4svw;
+    padding: 0;
+    border-radius: 5svw;
+}
+
+#del {
+    transform: translateX(7svw);
+    border-radius: 1svw;
+    font-size: 1.5svw;
+    height: 4svw;
+    width: 11svw;
+}
+
+#gastos {
+    height: 35svw;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#gastos::-webkit-scrollbar{
+    display: none;
+}
+
+#gastos p {
+    font-size: 1.5svw;
+}
+
+#config {
+    height: fit-content;
+    width: 100%;
+    padding: 0.5svw 0;
+    box-shadow: 0 1svw 1svw 0 rgba(0, 0, 0, 0.192);
+}
+
+#textos {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#textos::-webkit-scrollbar{
+    display: none;
+}
+
+#texto {
+    height: 40svw;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#texto::-webkit-scrollbar{
+    display: none;
+}
+
+#texto p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3svw;
+    padding: 0 2svw;
+}
+
+#total p, #gastos p{
+    transform: translateX(1svw);
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5svw;
+    padding: 0.5svw;
+    border-radius: 1svw;
+}
+
+#totaltxt {
+    height: 40svw;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#totaltxt::-webkit-scrollbar{
+    display: none;
+}
+
+.vermelho {
+    background-color: rgba(255, 0, 0, 0.527);
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.cinza {
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+#newspend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45svw;
+}
+
+#form {
+    background-color: rgb(197, 197, 197);
+    width: 33%;
+    height: 32svw;
+    border-radius: 1svw;
+    padding: 1svw 0 4.5svw 0;
+}
+
+#form input, select {
+    border: none;
+    padding: 0.7svw 2svw;
+    margin: 0.4svw 0 1svw 0;
+    border-radius: 1svw;
+    width: 20svw;
+    height: 3svw;
+    font-size: 1.2svw;
+}
+
+#form h1 {
+    margin: 0;
+    font-size: 2svw;
+}
+
+#form #desc {
+    height: 6svw;
+}
+
+#form #salvar {
+    margin-top: 0.6svw;
+    width: 10svw;
+    background-color: rgba(0, 128, 0, 0.295);
+    font-size: 1.5svw;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+#form label {
+    font-size: 1.5svw;
+}
+
+#form select, #salvar {
+    cursor: pointer;
+}
+
+.animacao {
+    animation: animacaoTexto 1.3s infinite;
+}
+
+@keyframes animacaoTexto {
+        0% {
+            background: linear-gradient( white, rgb(197, 197, 197),rgb(197, 197, 197));        
+        }
+        10% {
+            background: linear-gradient( rgb(197, 197, 197), white,rgb(197, 197, 197));  
+        }
+        20% {
+            background: linear-gradient( rgb(197, 197, 197), rgb(197, 197, 197),white); 
+        }
+        30% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197)); 
+        }
+        40% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+        50% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+        60% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+        70% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+        80% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+        90% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+        100% {
+            background: linear-gradient(rgb(197, 197, 197), rgb(197, 197, 197), rgb(197, 197, 197));
+        }
+}
+
+p button {
+    font-size: 1.2svw;
+    position: absolute;
+    width: 2.3svw;
+    height: 2.3svw;
+    text-align: center;
+    border-radius: 5svw 0 0 5svw;
+    background-color: rgba(255, 0, 0, 0.329);
+    transform: translateX(13.1svw);
+}
+
+.teste {
+    display: flex;
+}
