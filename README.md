@@ -1,6 +1,6 @@
 Site de controle de despesas financeiras utilizando Gemini API. O projeto foi feito como parte do processo de desenvolvimento da imersão AI oferecido pela Alura, em conjunto com Google.
 
-O projeto consuste num site onde o usuário adiciona informações sobre suas despesas como nome da despesa, custo, tipo de despesa e descrição. Com isso, a inteligência artificial do Google vai analisar os gastos do usuário, fazer um resumo sobre eles e oferecer breves dicas de como reduzir tais custos. 
+O projeto consiste num site onde o usuário adiciona informações sobre suas despesas como nome da despesa, custo, tipo de despesa e descrição. Com isso, a inteligência artificial do Google vai analisar os gastos do usuário, fazer um resumo sobre eles e oferecer breves dicas de como reduzir tais custos. 
 
 Para utilizar o site, você deverá configurá-lo com sua própria chave API do google AI. [Link](https://aistudio.google.com/app/apikey).
 Com ela em mãos, cole-a no arquivo api.js na linha 4, (const API_KEY = "COLE_AQUI_SUA_CHAVE_API";).
